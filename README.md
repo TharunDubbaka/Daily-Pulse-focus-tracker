@@ -24,29 +24,6 @@ Frontend: HTML, CSS
 
 Deployment: Gunicorn (via Render/Heroku)
 
-## Folder Structure
-
-DAILY_PULSE/
-├── app/
-│ ├── init.py
-│ ├── routes.py
-│ ├── predictor.py
-│ ├── data_handler.py
-│ ├── templates/
-│ │ └── index.html
-│ └── static/
-│ └── style.css
-├── data/
-│ ├── daily_productivity.csv
-│ └── user_logs.csv
-├── tests/
-│ ├── test_predictor.py
-│ └── test_data_handler.py
-├── requirements.txt
-├── Procfile
-├── run.py
-└── .gitignore
-
 ## Installation
 
 Clone the repository from GitHub.
