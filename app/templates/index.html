@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Pulse - Focus Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Daily Pulse - Focus Score Predictor</h1>
+    <form method="POST">
+        Sleep Hours: <input type="number" step="0.1" name="sleep" required><br><br>
+        Study Hours: <input type="number" step="0.1" name="study" required><br><br>
+        Mood Score (1-10): <input type="number" step="0.1" name="mood" required><br><br>
+        Screen Time (hrs): <input type="number" step="0.1" name="screen" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        <h2>Your predicted Focus Score: {{ prediction }}</h2>
+        <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>
