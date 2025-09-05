@@ -71,11 +71,12 @@ Use more advanced ML models for better prediction accuracy.
 Add graphs and charts to visualize focus trends.
 
 
-you can try it out on 
-https://daily-pulse-focus-tracker.onrender.com/
 
 Add user authentication for personalized logs.
 
 Make the UI mobile-friendly.
 
 
+
+you can try it out on 
+https://daily-pulse-focus-tracker.onrender.com/
